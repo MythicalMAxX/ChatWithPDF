@@ -1,7 +1,7 @@
 ```markdown
 # ChatWithPDF
 
-ChatWithPDF is a Python application that allows you to extract text from PDF files using OCR (Optical Character Recognition) technology and then interactively chat with the extracted text.
+ChatWithPDF is a Python application that allows you to extract text from PDF files and then interactively chat with the extracted text.
 
 ## Installation
 
@@ -23,9 +23,8 @@ To get started with ChatWithPDF, follow these simple steps:
    ```
 
 4. Update the API key:
-   - Obtain an API key for your preferred OCR service (e.g., Google Cloud Vision API, Microsoft Azure Computer Vision API).
-   - Open the `config.py` file.
-   - Replace `"YOUR_API_KEY"` with your actual API key.
+   - Obtain an OpenAI API key.
+   - Replace `"YOUR_API_KEY"` with your actual API key in main.py or use it as local variable.
 
 5. Add PDF files:
    - Place your PDF files in the `PDF` folder within the project directory.
@@ -35,7 +34,7 @@ To get started with ChatWithPDF, follow these simple steps:
 
 Once you have installed the dependencies, updated the API key, and added PDF files, you can run the application using the following command:
 ```
-python main.py
+python app.py
 ```
 
 The application will extract text from the PDF files and provide an interactive chat interface where you can ask questions or make comments about the extracted text.
