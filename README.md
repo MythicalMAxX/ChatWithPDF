@@ -9,7 +9,7 @@ To get started with ChatWithPDF, follow these simple steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/ChatWithPDF.git
+   git clone https://github.com/MythicalMAxX/ChatWithPDF.git
    ```
 
 2. Navigate into the project directory:
